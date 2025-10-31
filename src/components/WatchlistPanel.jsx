@@ -4,7 +4,7 @@ import './WatchlistPanel.css';
 const WatchlistPanel = ({ watchlist, dispatch }) => {
   return (
     <div className="watchlist-panel">
-      <h4>Gösterime Girecekler ({watchlist.length})</h4>
+      <h4>Listemdekiler ({watchlist.length})</h4>
       {watchlist.length === 0 ? (
         <p className="watchlist-empty">Listeniz boş.</p>
       ) : (
