@@ -17,7 +17,7 @@
 .reset-button {
   background: none;
   border: none;
-  color: var(--text-secondary-color);
+  color: #000000;
   cursor: pointer;
   font-size: 0.85rem;
   text-decoration: none;
