@@ -27,6 +27,7 @@
 }
 
 .pagination-controls span {
-  color: var(--text-secondary-color);
+  color: #e52c2c; /* var(--text-secondary-color) yerine daha koyu olan text-color kullanıyoruz */
   padding: 0 1rem;
+  font-weight: 600;
 }

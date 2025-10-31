@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap');
 :root {
   /* Vercel Demo Renk Paleti (Açık Tema) */
-  --background-color: #f8f9fa;      /* Açık Gri Arka Plan */
+  --background-color: #626971;      /* Açık Gri Arka Plan */
   --surface-color: #ffffff;         /* Kartlar ve Paneller için Beyaz */
-  --primary-color: #f5c518;         /* Ana Renk (Butonlar, Vurgular) - Sarı */
+  --primary-color: #1CB5E8;         /* Ana Renk (Butonlar, Vurgular) - mavi */
   --text-color: #212529;            /* Ana Metin Rengi - Koyu Gri */
   --text-secondary-color: #6c757d;  /* İkincil Metin Rengi - Gri */
   --border-color: #dee2e6;         /* Kenarlık Rengi */
+  --heading-font: 'Poppins', sans-serif;  /* Başlıklar için font */
+  --body-font: 'Inter', sans-serif;       /* Gövde metni için font */
 }
+  
+
 
 * {
   box-sizing: border-box;
@@ -17,10 +20,15 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+
+  font-family: var(--body-font);
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
 }
 
 a {
@@ -85,5 +93,6 @@ a {
 }
 
 .retry-button:hover {
-  background-color: #e0b410; /* Sarının biraz koyu tonu */
+  background-color: #1CB5E8; /* Mavi'nin biraz koyu tonu */
 }
+  
